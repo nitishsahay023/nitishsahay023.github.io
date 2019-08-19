@@ -2,9 +2,7 @@
 title: "Reading JSONs in R"
 author: "Nitish Sahay"
 date: "8/19/2019"
-output:
-  md_document:
-    variant: markdown_github
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
@@ -20,3 +18,4 @@ However, scraping data from sites which employ Infinite Scroll becomes tricky as
 
 The code written in R scrapes JSONs from an indian ecommerce site, jaypore.com, however, it can be extrapolated to get product level data from most ecommerce sites across the globe
 
+Access the code and try it yourself [here](https://github.com/nitishsahay023/webScrapeJson)
