@@ -1,19 +1,16 @@
-olx Cars
---------
+How much should I sell my car for?
+----------------------------------
 
-### How much are people willing to pay for my car?
+I was moving to another country and had to sell a lot of things in a
+limited amount of time. This included my car too which I bought exactly
+a year back for 285K in INR. What should I expect from selling my car
+was a question I needed an answer for. So I decided to use central limit
+theorum(mean, median & mode) to get the right price.
 
-This question haunted me for a couple of hours when I was about to post
-an ad to sell my car.
+I collected the price, manufacture year and few other features from
+[olx](https//:olx.in) of all the Hyundai i10s in my city and created a
+`shiny` app in `R`.
 
-So I decided to write a script with a bit of viz to get a price which
-should have a high probabibilty of creating enough buzz.
-
-Along with that an app which I can use for quick reference at this
-[app](https://nitishsahay.shinyapps.io/olxCarsGit/)
-
-The data in the application is scraped from olx.in for Hyundai i10 only
-in Bangalore, India.
-
-Access the code along with the data and try it yourself
-[here](https://github.com/nitishsahay023/olxCars)
+You can access the code along with the data
+[here](https://github.com/nitishsahay023/olxCars) and play with the app
+[here](https://nitishsahay.shinyapps.io/olxCarsGit/).
