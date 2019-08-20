@@ -15,3 +15,8 @@ created a `shiny` app in `R`.
 You can access the code along with the data
 [here](https://github.com/nitishsahay023/olxCars) and play with the app
 [here](https://nitishsahay.shinyapps.io/olxCarsGit/).
+
+Screenshot of app showing price distribution year-wise
+
+![Price
+Distrubution](https://github.com/nitishsahay023/images/olxCarsSnapshot.PNG)
