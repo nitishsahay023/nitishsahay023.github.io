@@ -8,8 +8,8 @@ was a question I needed an answer for. So I decided to use central limit
 theorum(mean, median & mode) to get the right price.
 
 I collected the price, manufacture year and few other features from
-[olx](https//:olx.in) of all the Hyundai i10s in my city and created a
-`shiny` app in `R`.
+[olx](https://www.olx.in/) of all the Hyundai i10s in my city and
+created a `shiny` app in `R`.
 
 You can access the code along with the data
 [here](https://github.com/nitishsahay023/olxCars) and play with the app
