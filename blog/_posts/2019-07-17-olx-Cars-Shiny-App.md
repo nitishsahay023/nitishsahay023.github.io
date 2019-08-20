@@ -18,5 +18,4 @@ You can access the code along with the data
 
 Screenshot of app showing price distribution year-wise
 
-![Price
-Distrubution](https://github.com/nitishsahay023/nitishsahay023.github.io/images/olxCarsSnapshot.PNG)
+![Price Distrubution](/images/olxCarsSnapshot.PNG)
