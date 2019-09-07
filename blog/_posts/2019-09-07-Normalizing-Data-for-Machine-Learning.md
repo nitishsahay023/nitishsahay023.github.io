@@ -29,7 +29,7 @@ to the machine learning pipeline
 
  - Standardization, also called Z-Score Normalization - Maps a numerical value to a new distribution with mean 0 and standard deviation = 1 
 
-![equation]((http://latex.codecogs.com/gif.latex?x'%20%3D%20(x%20-%20min)/(max%20-%20min))
+![](/images/equation02.gif)
 
 ![Original Sample Data](/images/04_data_normalization_001.png)
 
