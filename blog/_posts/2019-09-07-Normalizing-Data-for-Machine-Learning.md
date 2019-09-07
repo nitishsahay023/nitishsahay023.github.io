@@ -1,8 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 Is **Data Normalization** always needed?
 ----------------------------------------
 
