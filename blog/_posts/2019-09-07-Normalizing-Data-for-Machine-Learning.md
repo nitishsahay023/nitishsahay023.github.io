@@ -25,7 +25,7 @@ to the machine learning pipeline
 #### Types of normalization
 
  - Min-Max Scaling - Maps a numerical value *x* to the \[0, 1\] interval 
-*x' = (x - min)/(max - min)*
+![](/images/equation01.gif)
 
  - Standardization, also called Z-Score Normalization - Maps a numerical value to a new distribution with mean 0 and standard deviation = 1 
 
