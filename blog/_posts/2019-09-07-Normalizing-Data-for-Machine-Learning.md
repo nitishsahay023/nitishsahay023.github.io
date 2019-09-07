@@ -1,7 +1,5 @@
-Data pre-processing and visualization
--------------------------------------
-
-### Is **Data Normalization** always needed?
+Is **Data Normalization** always needed?
+----------------------------------------
 
 Data Normalization, also known as feature scaling is often the first
 step in the preprocessing pipeline before running the machine learning
@@ -24,17 +22,27 @@ to the machine learning pipeline
 1.  Min-Max Scaling
 
 -   Maps a numerical value *x* to the \[0, 1\] interval
-    *x*′ = (*x* − *m**i**n*)/(*m**a**x* − *m**i**n*)
+
+                $x' = (x - min)/(max - min)$
 
 1.  Standardization, also called Z-Score Normalization
 
--   Maps a numerical value to a new distribution with mean *μ* = 0 and
-    standard deviation *σ* = 1
+-   Maps a numerical value to a new distribution with mean 0 and
+    standard deviation = 1
 
-*x*′ = (*x* − *μ*)/*σ*
+                $x' = (x - \mu)/\sigma$
 
 ![Original Sample Data](/images/04_data_normalization_001.png)
 
+**The scales are so different the inter quartile ranges are barely
+close, lets normalize and check again.**
+
 ![Min-Max Normalized](/images/04_data_normalization_002.png)
 
+**The two interquartile ranges are similar, but lets check results with
+Z-score normalization**
+
 ![Z-Score Normalized](/images/04_data_normalization_003.png)
+
+**Z-score normalization brought the two interquartile ranges to a
+similar scale, meaning that neither feature dominates the other one**
