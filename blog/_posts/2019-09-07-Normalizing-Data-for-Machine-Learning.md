@@ -21,11 +21,11 @@ to the machine learning pipeline
 
 1.  Min-Max Scaling - Maps a numerical value *x* to the \[0, 1\] interval 
 
- - $x' = (x - min)/(max - min)$
+ - *x' = (x - min)/(max - min)*
 
 2.  Standardization, also called Z-Score Normalization - Maps a numerical value to a new distribution with mean 0 and standard deviation = 1 
 
- - $x' = (x - \mu)/\sigma$
+ - *x' = (x - \mu)/\sigma*
 
 ![Original Sample Data](/images/04_data_normalization_001.png)
 
