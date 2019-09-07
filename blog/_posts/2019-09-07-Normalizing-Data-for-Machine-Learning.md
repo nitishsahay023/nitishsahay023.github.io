@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 Is **Data Normalization** always needed?
 ----------------------------------------
 
@@ -20,11 +25,11 @@ to the machine learning pipeline
 #### Types of normalization
 
  - Min-Max Scaling - Maps a numerical value *x* to the \[0, 1\] interval 
-        - *x' = (x - min)/(max - min)*
+*x' = (x - min)/(max - min)*
 
  - Standardization, also called Z-Score Normalization - Maps a numerical value to a new distribution with mean 0 and standard deviation = 1 
 
-        - ![equation](http://latex.codecogs.com/gif.latex?x'%20%3D%20(x%20-%20min)/(max%20-%20min))
+![equation]((http://latex.codecogs.com/gif.latex?x'%20%3D%20(x%20-%20min)/(max%20-%20min))
 
 ![Original Sample Data](/images/04_data_normalization_001.png)
 
