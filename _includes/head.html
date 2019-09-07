@@ -120,5 +120,18 @@
   <link rel="stylesheet" type="text/css" href="http://ggvis.rstudio.com/0.1/libs/ggvis/css/ggvis.css"/>
   <!-- end of ggvis scripts-->
 
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5M3E98C0H5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5M3E98C0H5');
+</script>
 
 </head>
