@@ -23,7 +23,7 @@ to the machine learning pipeline
 
 -   Maps a numerical value *x* to the \[0, 1\] interval
 
-                $x' = (x - min)/(max - min)$
+                *$x' = (x - min)/(max - min)$*
 
 1.  Standardization, also called Z-Score Normalization
 
